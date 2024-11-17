@@ -1,18 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #347928;
     margin: 0;
 }
 
 .calculator {
-    background: #fff;
+    background: #D5ED9F;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px #FCCD2A;
     width: 300px;
 
 }
@@ -34,13 +34,15 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    
 }
 
 button {
+    font-weight: bold;
     height: 50px;
     font-size: 18px;
     border: none;
-    background: #f0f0f0;
+    background: #FCCD2A;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
